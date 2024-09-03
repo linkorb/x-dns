@@ -1,0 +1,33 @@
+{
+    "name": "linkorb/x-dns",
+    "description": "Cross-provider DNS updater",
+    "homepage": "https://github.com/linkorb/x-dnss",
+    "keywords": ["dns", "domain", "transip", "linkorb"],
+    "type": "application",
+    "authors": [
+        {
+            "name": "LinkORB",
+            "email": "engineering@linkorb.com",
+            "role": "Development"
+        }
+    ],
+    "require": {
+        "transip/transip-api-php": "^6",
+        "symfony/yaml": "^6.4"
+    },
+    "require-dev": {
+        "symfony/dotenv": "^6.0",
+        "symfony/console": "^6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "XDns\\": "src/"
+        }
+    },
+    "license": "MIT",
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    }
+}
