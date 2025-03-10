@@ -1,4 +1,6 @@
 name: example.org
+includes:
+    - .extra.yaml
 targets:
     - transip-alice
     - transip-bob

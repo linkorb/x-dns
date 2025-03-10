@@ -82,8 +82,13 @@ In that path, you can store multiple .yaml (or .yml) files containing zone confi
 ```yaml
 # example.org.yaml
 name: example.org
+
+includes:
+    - other1.yaml # include other yaml files to add more records
+    - other2.yaml
+
 targets:
-    - transip-alice
+    - transip-alice # list the providers where these records are sync'ed with
 records:
     -
         name: www
