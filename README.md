@@ -1,6 +1,8 @@
 X-DNS: Cross-provider DNS configuration management
 ==================================================
 
+> **Note:** The new version of this repository can be found at [github.com/linkorb/x-dns-component](https://github.com/linkorb/x-dns-component)
+
 X-DNS allows you to:
 
 * Manage your DNS configuration in git (enabling a pull-request based collaboration workflow)
